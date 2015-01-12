@@ -29,6 +29,7 @@ module.exports = yeoman.generators.Base.extend({
 			this.template('css/index.scss', 'css/' + this.pluginFileName + '.scss');
 			this.template('js/index.js', 'js/' + this.pluginFileName + '.js');
 			this.src.copy('_editorconfig', '.editorconfig');
+			this.src.copy('_gitignore', '.gitignore');
 			if (this.hasQunit) {
 				this.directory('tests', 'tests');
 			}
