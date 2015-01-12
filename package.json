@@ -1,0 +1,12 @@
+{
+  "name": "generator-jquery-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "main": "app/index.js",
+  "dependencies": {
+    "yeoman-generator": "^0.18.6"
+  }
+}

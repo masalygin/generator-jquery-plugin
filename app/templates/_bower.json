@@ -1,0 +1,9 @@
+{
+	"name": "jquery-<%= pluginName %>",
+	"version": "1.0.0",
+	"dependencies": {},
+	"devDependencies": {
+		<% if (hasQunit) { %>"qunit": "latest",<% } %>
+		"jquery": "latest"
+	}
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%= pluginName %></title>
+	<link rel="stylesheet" type="text/css" href="css/<%= pluginFileName %>.scss.css">
+</head>
+<body>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="js/<%= pluginFileName %>.js"></script>
+<% if (hasQunit) { %>
+<div id="qunit"></div>
+<div id="qunit-fixture"></div>
+<link rel="stylesheet" type="text/css" href="bower_components/qunit/qunit/qunit.css">
+<script src="bower_components/qunit/qunit/qunit.js"></script>
+<script src="tests/index.js"></script>
+<% } %>
+
+</body>
+</html>
